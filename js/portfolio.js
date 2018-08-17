@@ -12,8 +12,10 @@ function initializePage() {
 	// add any functionality and listeners you want here
 	console.log("Javascript is connected!");
 }
+$(".img-thumbnail").click(projectClick);
 
 function projectClick(e) {
-	e.preventDefault();$(this).css("background-color",“#6610f2”) console.log(“It works!”)
+	e.preventDefault();
+	$(this).css("background-color", "#6f42c1");
+	// console.log(“It Worked!”);
 }
-$(“a.thumbnail”).click(projectClick);
