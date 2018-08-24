@@ -42,7 +42,7 @@
 }
 
 html {
-  font-family: sans-serif;
+  font-family: comic;
   line-height: 1.15;
   -webkit-text-size-adjust: 100%;
   -ms-text-size-adjust: 100%;
@@ -66,19 +66,14 @@ body {
   line-height: 1.5;
   color: white;
   text-align: center;
-  background-color: black;
+  background-color: black
+;
 }
 
 [tabindex="-1"]:focus {
   outline: 0 !important;
 }
-.element {
-	text-shadow:
-		-1px -1px 0 #000,
-		1px -1px 0 #000,
-		-1px 1px 0 #000,
-		1px 1px 0 #000;
-}
+
 hr {
   box-sizing: content-box;
   height: 0;
