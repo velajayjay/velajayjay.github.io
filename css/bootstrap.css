@@ -64,15 +64,21 @@ body {
   font-size: 1rem;
   font-weight: 400;
   line-height: 1.5;
-  color: #212529;
-  text-align: left;
-  background-color: #fff;
+  color: white;
+  text-align: center;
+  background-color: black;
 }
 
 [tabindex="-1"]:focus {
   outline: 0 !important;
 }
-
+.element {
+	text-shadow:
+		-1px -1px 0 #000,
+		1px -1px 0 #000,
+		-1px 1px 0 #000,
+		1px 1px 0 #000;
+}
 hr {
   box-sizing: content-box;
   height: 0;

@@ -14,7 +14,42 @@
 
 		<![endif]-->
 <link href="css/main.css" rel="stylesheet">
+<link href="css/bootstrap.css" rel="stylesheet">
 </head>
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+  <a class="navbar-brand" href="#about">BB</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item active">
+        <a class="nav-link" href="#">Migos<span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Raindrop</a>
+      </li>
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Drop Top
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+          <a class="dropdown-item" href="#">Thot</a>
+          <a class="dropdown-item" href="#">Thot</a>
+          <div class="dropdown-divider"></div>
+          <a class="dropdown-item" href="#">Thot</a>
+        </div>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link disabled" href="#">Hotbox</a>
+      </li>
+    </ul>
+    <form class="form-inline my-2 my-lg-0">
+      <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+      <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+    </form>
+  </div>
+</nav>
 
 <body>
 		<!-- h1 through h6 are headers. The higher the number, the smaller the header -->
@@ -30,16 +65,16 @@
 				</div>
 			</div>
 			<br><br>
-			<div class="col-md-8" id="about" style="position: right">
+			<div class="col-md-8" id="about" style="position: center">
 				<h2>About Me</h2>
-				<p>I am a fourth-year undergrad student in Biochemistry at UCSD. I plan on continuing my education through either graduate school to become a researcher or through medical school in order to become a radiation oncologist.</p>
+				<p class="project-text">I am a fourth-year undergrad student in Biochemistry at UCSD. I plan on continuing my education through either graduate school to become a researcher or through medical school in order to become a radiation oncologist.</p>
 			</div>
 			<a href=docs/Jason_Velasco_Resume_Summer_2018.pdf>View My Resume</a>
 		</div>
 		<br>
 		<div class="row col-md-12">
 			<h2>Projects</h2>
-			<p>I have not done any projects that are related to my majors however I have worked in both a hospital and a labratory setting. In the hospital, I worked as a scribe by doing paperwork, entering new patients, as well as various responsibilities that are similar to that of a nurse. In the lab, I worked on both biomedical and biological experiments focusing on viruses and genetic engineering.</p>
+			<p class="project-text">I have not done any projects that are related to my majors however I have worked in both a hospital and a labratory setting. In the hospital, I worked as a scribe by doing paperwork, entering new patients, as well as various responsibilities that are similar to that of a nurse. In the lab, I worked on both biomedical and biological experiments focusing on viruses and genetic engineering.</p>
 		<!-- divs are invisible structuring elements that stack vertically by default. Use them to organize your code -->
 		<!-- img tags are images. Lorem Pixel will deliver random images; handy! -->
 		<!-- a are anchors, also known as hyperlinks. Use the href attribute to tell the browser where to go when the user clicks -->
@@ -49,9 +84,10 @@
 				</a>
 			</div>
 			<div class="project" id="project2">
+				<img class="img-thumbnail img-fluid" id="project2" src="images/HIV.jpg" style="width:400px;height:400px;margin-left:400px;border:2px solid purple;"
 			</div>
 			<h2>Goals</h2>
-				<p>I plan on either becoming a radiation oncologist in order to develop and administer new treatments for cancer. I also want to delve in to genetic engineering in order to create animals with photosynthetic properties. </p>
+				<p class="project-text">I plan on either becoming a radiation oncologist in order to develop and administer new treatments for cancer. I also want to delve in to genetic engineering in order to create animals with photosynthetic properties. </p>
 			<div class="project" id="project3">
 				<a href="#">
 				</a>
